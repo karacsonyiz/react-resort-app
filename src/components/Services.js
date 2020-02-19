@@ -19,7 +19,7 @@ export default class Services extends Component {
             {
                 icon:<FaShuttleVan/>,
                 title:"free shuttle",
-                info:'you getfree shuttle!'
+                info:'you get free shuttle!'
             },
             {
                 icon:<FaBeer/>,
