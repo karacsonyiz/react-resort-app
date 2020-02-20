@@ -7,13 +7,12 @@ export default class FeaturedRoom extends Component {
 
     render() {
 
-        const value = this.context;
-        console.log(value)
+        const {name,greeting } = this.context;
+
         
         return (
             <div>
-                {value.name}
-                
+                {greeting}{name}
             </div>
         )
     }
